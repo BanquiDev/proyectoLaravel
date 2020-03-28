@@ -16,6 +16,6 @@ class UserController extends Controller
     $usuario = Auth::user();
     $productos = Producto::where('user_id', '=' , $usuario->id)->get();
     dd($usuario);
-    return view('verperfilusuario', compact('usuario', 'productos'));
+    return view('verPerfilUsuario', compact('usuario', 'productos'));
   }
 }
