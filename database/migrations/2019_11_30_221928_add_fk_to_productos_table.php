@@ -12,7 +12,12 @@ class AddFkToProductosTable extends Migration
      * @return void
      */
     public function up()
-    {
+    {    
+        Schema::table('productos', function (Blueprint $table) {
+        $table->foreign('category_id')->references('id')->on('categorias');
+
+        $table->foreign('user_id')->references('id')->on('users');
+    });
         Schema::table('productos', function (Blueprint $table) {
             $table->foreign('category_id')->references('id')->on('categorias');
 

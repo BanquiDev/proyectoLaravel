@@ -246,10 +246,11 @@ width: 100%;
 }
   /* Productos */
 .producto{
-  width:30%;
+  width:100%;
   border-style: solid;
   border-width: thin;
   border-color: #6C6969;
+  padding-top: 70px;
   /* padding: 3px 3px; */
 }
 /* .producto{

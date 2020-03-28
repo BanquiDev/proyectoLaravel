@@ -52,24 +52,7 @@
         @endif
       </ul>
     </nav>
-    {{-- <div class="search-bar">
-      <nav class="navbar navbar-light bg-light">
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </nav>
-    </div> --}}
-       {{-- <nav class="main_bar">
-          <ul class="menu_productos">
-          <li class="botones_productos"><a href="/vercategoria/8">Ceramica</a></li>
-          <li class="botones_productos"><a href="/vercategoria/10">Cuadros</a></li>
-          <li class="botones_productos"><a href="/vercategoria/9">Muebles</a></li>
-          <li class="botones_productos"><a href="/vercategoria/11">Decoracion</a></li>
-          <li class="botones_productos"><a href="/home">Todos los productos</a></li>
-        </ul>
-      </nav> --}}
-    </header>
+  </header>
 
       @yield('content')
 

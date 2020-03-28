@@ -20,6 +20,6 @@ class Producto extends Model
     }
 
     public function favorito(){
-      return $this->belongsToMany('App\Producto', 'favoritos', 'product_id', 'user_id');
+      return $this->belongsToMany('App\User', 'favoritos', 'product_id', 'user_id');
     }
 }
