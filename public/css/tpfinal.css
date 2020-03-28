@@ -73,8 +73,7 @@ header {
 }
 
 .buttons {
-  overflow: hidden;
-  width: 100%;
+  min-width: 600px;
 }
 
 /* #colorbtn {
