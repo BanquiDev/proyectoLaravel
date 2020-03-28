@@ -7,7 +7,7 @@
 <br>
 <div class="container" id="carritovista">
 
-<h1>CharLY</h1>
+<h1>Mi Carrito</h1>
     @forelse ($items as $product)
       <article class= 'producto'>
         <img src="/storage/product/{{$product->featured_img}}" alt="" id="imgcart">
